@@ -1,7 +1,7 @@
 # Genotype2Phenotype — Linking Mutations, Expression and Drug Response with Interpretable AI
 
 ## Pitch
-This project integrates RNA-seq data, somatic mutations, and cell viability assays (p53-REACT, collaboration with Prof. Bourdon, Univ. of Dundee) to:  
+This project integrates RNA-seq data, somatic mutations, and cell viability assays (p53-REACT and collaborators to:  
 1. Identify differentially expressed genes (tumor vs normal).  
 2. Detect pathogenic mutations with functional impact.  
 3. Predict compound response using interpretable multimodal AI models.  
@@ -17,7 +17,7 @@ Multimodal modeling (mutations + expression + in vitro assays) can prioritize pa
 ---
 
 ## Data Sources
-- **Proprietary (collaboration):** p53-REACT cell viability assays (Prof. Bourdon, Univ. of Dundee). Used as held-out real-world evidence.  
+- **Proprietary (collaboration):** p53-REACT cell viability assays. Used as held-out real-world evidence.  
 - **Public datasets:**  
   - RNA-seq: TCGA or GEO (tumor-specific datasets). Preprocessed counts/TPM preferred.  
   - Somatic variants: TCGA MAF, DepMap/CCLE.  
@@ -132,7 +132,7 @@ docker build -t genotype2phenotype .
 ---
 
 ## Ethics & Data
-- Documented source: GEO/TCGA/DepMap + Bourdon collaboration  
+- Documented source: GEO/TCGA/DepMap + collaboratiors  
 - Clinical data anonymized  
 - Public data scripts:   
 - Proprietary data:  for collaborators

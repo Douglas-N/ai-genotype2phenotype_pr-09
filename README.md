@@ -1,7 +1,7 @@
 # Genotype2Phenotype — Linking Mutations, Expression and Drug Response with Interpretable AI
 
 ## Pitch
-This project integrates RNA-seq data, somatic mutations, and cell viability assays (p53-REACT and collaborators to:  
+This project integrates RNA-seq data, somatic mutations, and cell viability assays (p53-REACT and collaborators) to:  
 1. Identify differentially expressed genes (tumor vs normal).  
 2. Detect pathogenic mutations with functional impact.  
 3. Predict compound response using interpretable multimodal AI models.  
